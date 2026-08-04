@@ -4,28 +4,28 @@ repo: tallerGHA2
 
 sites:
   - name: Google
-    url: https://www.google.com[cite: 5]
+    url: https://www.google.com
   - name: Wikipedia
-    url: https://en.wikipedia.org[cite: 5]
+    url: https://en.wikipedia.org
   - name: Hacker News
-    url: https://news.ycombinator.com[cite: 5]
+    url: https://news.ycombinator.com
   - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co[cite: 5]
+    url: https://thissitedoesnotexist.koj.co
   - name: IPv6 test
     url: forwardemail.net
     port: 80
     check: "tcp-ping"
-    ipv6: true[cite: 5]
+    ipv6: true
 
 status-website:
   # baseUrl: /your-repo-name
-  baseUrl: /tallerGHA2[cite: 5]
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg[cite: 5]
-  name: Upptime[cite: 5]
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."[cite: 5]
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)[cite: 5]
+  baseUrl: /tallerGHA2
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Upptime
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Estado
-      href: /[cite: 5]
+      href: /
     - title: GitHub
       href: https://github.com/Joxhxh/tallerGHA2
